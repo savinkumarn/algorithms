@@ -10,9 +10,7 @@ def bubble_sort(input_list):
         flag = False
         for sec_idx in range(0, length-1-idx):
             if input_list[sec_idx] > input_list[sec_idx + 1]:
-                tmp_val = input_list[sec_idx + 1]
-                input_list[sec_idx + 1] = input_list[sec_idx]
-                input_list[sec_idx] = tmp_val
+                input_list[sec_idx], input_list[sec_idx + 1] = input_list[sec_idx  + 1], input_list[sec_idx]
                 flag = True
         if not flag:
             break

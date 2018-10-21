@@ -40,7 +40,7 @@ def merge_sort(input_list):
 def merge_sort_main(input_list):
     temp_input_list = deepcopy(input_list)
     start = time.clock()
-    merge_sort(input_list)
+    merge_sort( input_list)
     time_taken = (time.clock() - start) * 1000
     temp_input_list.sort()
     if input_list == temp_input_list:

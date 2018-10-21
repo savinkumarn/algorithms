@@ -9,9 +9,7 @@ def selection_sort(input_list):
     for idx in range(0, length-1):
         for sec_idx in range(idx+1, length):
             if input_list[sec_idx] < input_list[idx]:
-                tmp_val = input_list[sec_idx]
-                input_list[sec_idx] = input_list[idx]
-                input_list[idx] = tmp_val
+                input_list[sec_idx],input_list[idx] = input_list[idx],input_list[sec_idx]
     time_taken = (time.clock() - start) * 1000
     temp_input_list.sort()
     if input_list == temp_input_list:
