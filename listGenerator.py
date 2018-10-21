@@ -18,7 +18,7 @@ data = r'''{
                  "replacement": false,
                  "base": 10
                  },
-        "id": 21990
+        "id": 21911
         }'''
 
 
@@ -28,4 +28,5 @@ def get_list_for_testing(number_of_records):
     req_data['params']['n'] = number_of_records
     req_data['params']['max'] = number_of_records
     resp = requests.post(url=API_ENDPOINT, json=req_data)
+    print (resp.json())
     return resp.json()['result']['random']['data']

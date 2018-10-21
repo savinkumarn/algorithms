@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="222404b0-852e-4d3e-ba48-e08c7c3e0406" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quickSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/bubbleSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/listGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selectionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/selectionSort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +35,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="69" />
-          <entry key="py" value="3826" />
+          <entry key="py" value="3828" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3895" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="3897" />
         </counts>
       </usages-collector>
     </session>
@@ -70,11 +67,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="16">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1540124248794" expanded="true" signature="761:762" ph="..." />
+                <marker date="1540124260334" expanded="true" signature="761:762" ph="..." />
               </folding>
             </state>
           </provider>
@@ -186,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539911001096</updated>
     </task>
+    <task id="LOCAL-00001" summary="swap fix, quick sort addition">
+      <created>1540124536832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540124536832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -222,6 +227,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="swap fix, quick sort addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="swap fix, quick sort addition" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.6/copy.py">
@@ -310,11 +319,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="16">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1540124248794" expanded="true" signature="761:762" ph="..." />
+            <marker date="1540124260334" expanded="true" signature="761:762" ph="..." />
           </folding>
         </state>
       </provider>
